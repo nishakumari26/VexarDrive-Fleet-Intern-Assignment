@@ -175,3 +175,5 @@ Do not invent: fuel, idling cost, engine temperature, brake-pad wear, crash prob
 | `dashboards/*.html` | The two required dashboards |
 
 Submission form (from the brief): https://forms.gle/qsaiteGEi9qDNQVS7
+
+Built with [Cursor](https://cursor.com).
