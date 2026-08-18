@@ -1,0 +1,34 @@
+{
+  "n_drivers": 30,
+  "n_vehicles": 30,
+  "n_trips": 450,
+  "n_telemetry": 12987,
+  "null_cells": {
+    "drivers": 0,
+    "vehicles": 0,
+    "trips": 0,
+    "telemetry": 0
+  },
+  "orphan_trip_drivers": [],
+  "orphan_trip_vehicles": [],
+  "telemetry_trips_missing_from_trips": 0,
+  "trips_without_telemetry": 0,
+  "trips_per_driver_min": 15,
+  "trips_per_driver_max": 15,
+  "week_start": "2026-07-31",
+  "week_end": "2026-08-06",
+  "trips_duration_ne_telemetry_rows": 0,
+  "telemetry_driver_mismatch_vs_trips": 0,
+  "telemetry_vehicle_mismatch_vs_trips": 0,
+  "thresholds": {
+    "moving_speed_kmph": 5.0,
+    "overspeed_p95_kmph": 42.4,
+    "severe_overspeed_p99_kmph": 52.1,
+    "harsh_horiz_p95_g": 0.4600729970030424,
+    "yaw_p95_dps": 5.01,
+    "z_dev_p95_g": 0.08699999999999997,
+    "n_moving_minutes": 11891,
+    "n_minutes": 12987,
+    "why": "Thresholds are empirical percentiles of THIS week's moving minutes (speed >= 5 km/h). Per-minute IMU is too coarse for physics-based g-cutoffs (e.g. 0.4g harsh brake), so tails of the observed distribution are used instead of textbook values."
+  }
+}
